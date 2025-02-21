@@ -1,17 +1,7 @@
-import axios from 'axios';
-import React, { useEffect, useState } from 'react'
+
+import React from 'react'
 export default function Branch() {
 
-   var [data, setData] = useState([]);
-
-   useEffect(()=>{
-      const fetchData = async ()=>{
-         const result = await axios.get("https://react-admin-44yh.onrender.com/admin/center_api");
-       //  setData(result.data);
-         console.log(result.data);
-      };
-      fetchData();
-   },[]);
   return (
     <>
   

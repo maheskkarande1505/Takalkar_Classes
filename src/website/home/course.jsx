@@ -13,28 +13,44 @@ export default function Course() {
         </div>
       <div className="container">
 
-        <div className="row text-center">
+        <div className="row text-center" style={{marginTop:"-50px"}}>
 
-            <div className="col-lg-1 std_course1"></div>
-            <div className="col-lg-1 std_course1"></div>
-            <div className="col-lg-3 std_course1">
-                <div className="div_1"><img src="../../8th-9th-10th-1.png" alt="" />
-                <br/><br/><h5>8th , 9th , 10th</h5>
-                (SSC,CBSE,ICSE Boards)
-                </div>
-            </div>
-            <div className="col-lg-3 std_course1">
-                <div className="div_2"><img src="../../11th-12th-Science-PCMB.png" alt="" />
-                <br/><br/><h5>11th,12th,Science-PCMB</h5>(HSC & CBSE)</div>
-            </div>
+        <div className="col-md-3 offset-1">
+              <div className="card">
+                 <div className='card-body p-0'>
+                   <img src={`${process.env.PUBLIC_URL}/8th-9th-10th-1.png`} alt="" className="w-100 h-100"/>
+                 </div>
+                 <div className='card-header p-4 pt-5 pb-5'>
+                    <h6><b>8th , 9th , 10th</b></h6>
+                    <p>(SSC,CBSE,ICSE Boards)</p>
+                 </div>
+              </div>
+          </div>
+ 
+          <div className="col-md-3">
+              <div className="card">
+                 <div className='card-body p-0'>
+                   <img src={`${process.env.PUBLIC_URL}/11th-12th-Science-PCMB.png`} alt="" className="w-100 h-100"/>
+                 </div>
+                 <div className='card-header p-4 pt-5 pb-5'>
+                    <h6><b>11th,12th,Science-PCMB</b></h6>
+                    <p>(HSC & CBSE)</p>
+                 </div>
+              </div>
+          </div>
+
+          <div className="col-md-3">
+              <div className="card">
+                 <div className='card-body p-0'>
+                   <img src={`${process.env.PUBLIC_URL}/JEE-NEET-CET.png`} alt="" className="w-100 h-100"/>
+                 </div>
+                 <div className='card-header p-5 pt-5 pb-5'>
+                    <h6><b>JEE , NEET , CET</b></h6>
+                    <p>.</p>
+                 </div>
+              </div>
+          </div>
             
-            <div className="col-lg-3 std_course1">
-                <div className="div_3"><img src="../../JEE-NEET-CET.png" alt="" />
-                <br/><br/><h5>JEE , NEET , CET</h5>
-                </div>
-                
-            </div>
-            <div className="col-lg-1 std_course1"></div>
         </div> 
   </div>
       

@@ -25,10 +25,10 @@ function Navbar (){
   
      
         <div className="nav-item">
-          <NavLink to={'/home'}><img src="logo.png" alt="" height={'45px'}/></NavLink>
-        </div>
+          <NavLink to={'/home'}><img src={`${process.env.PUBLIC_URL}/logo.png`} alt="" className="w-75"/></NavLink>
+        </div>  
         <div className="nav-item">
-        <NavLink to={'/location'}><img src="logo 2.png" alt="" height={'35px'}/></NavLink>
+        <NavLink to={'/location'}><img src={`${process.env.PUBLIC_URL}/logo 2.png`} alt="" className="w-75"/></NavLink>
         </div>
 
     <div className="nav_btn_group">

@@ -91,19 +91,12 @@
 .about_takalkar{
   font-weight: 900;
   font-size: 50px;
-  margin-top: 150px;
   font-family: Hind,sans-serif;
 }
 .about_text{
   font-family: Hind,sans-serif;
   font-size: 14px;
   color: gray;
-}
-.about_image img{
-  width: 80%;
-  margin-top: 100px;
-  margin-left: 10%;
-  overflow: hidden;
 }
 .about_icons{
   float: left;
@@ -129,82 +122,6 @@
   text-align: center;
   color: rgb(248, 248, 248);
 
-}
-.heding{
-  font-size: 35px;
-  font-weight: 700;
-  margin-top: 20px;
- 
-}
-
-.div_1{
-  height: 340px;
-  width: 240px;
-  margin-top: -60px;
-  margin-bottom: 50px;
-  box-shadow: 1px 1px 10px 1px;
-  border-radius: 10px;
-}
-.div_2{
-  height: 340px;
-  width: 240px;
-  margin-bottom: 50px;
-  margin-top: -60px;
-  box-shadow: 1px 1px 10px 1px;
-  border-radius: 10px;
-}
-
-.div_3{
-  height: 340px;
-  width: 240px;
-  margin-bottom: 50px;
-  margin-top: -60px;
-  box-shadow: 1px 1px 10px 1px;
-  border-radius: 10px;
-}
-.std_course1{
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  text-align: center;
-}
-.div_1 img,.div_2 img,.div_3 img{
-  width: 240px;
-
-}
-@media (max-width: 950px) {
-
-  .div_1{
-    justify-content: center;
-    margin-left: 25%;
-    margin-top: 20px;
-  }
-  .div_2{
-    justify-content: center;
-    margin-left: 25%;
-    margin-top: 20px;
-
-  }
-  .div_3{
-    justify-content: center;
-    margin-left: 25%;
-    margin-top: 20px;
-  }
-}
-
-/* founder section */
-
-.founder_img{
-  width: 80%;
-  margin-left: 10%;
-  margin-top: 50px;
-}
-.about_founder p h1{
-    font-weight: 700;
-    margin-top: 50px;
-}
-.about_founder p{
-  color: rgb(78, 78, 78);
 }
 
 /* Blog section */
