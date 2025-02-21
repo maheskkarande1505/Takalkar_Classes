@@ -28,13 +28,13 @@ export default function Slider() {
 <div id="carouselExampleControlsNoTouching" className="carousel slide" data-bs-touch="false">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="/Slider_1.jpg" className="d-block w-100" alt="..."/>
+      <img src="Slider_1.jpg" className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src="/Slider_2.jpg" className="d-block w-100" alt="..."/>
+      <img src="Slider_2.jpg" className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src="/Slider_3.jpg" className="d-block w-100" alt="..."/>
+      <img src="Slider_3.jpg" className="d-block w-100" alt="..."/>
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
