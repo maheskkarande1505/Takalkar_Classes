@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Takalkar_Classes/static/css/main.88b5d9bf.css",
+    "main.js": "/Takalkar_Classes/static/js/main.0186db4d.js",
+    "static/js/488.b5fb6f0b.chunk.js": "/Takalkar_Classes/static/js/488.b5fb6f0b.chunk.js",
+    "static/media/Latest-Article.jpg": "/Takalkar_Classes/static/media/Latest-Article.628dc1074886a5e5bf23.jpg",
+    "static/media/Flexible-Courses-BG.jpg": "/Takalkar_Classes/static/media/Flexible-Courses-BG.674ccb605838d5c42088.jpg",
+    "index.html": "/Takalkar_Classes/index.html",
+    "main.88b5d9bf.css.map": "/Takalkar_Classes/static/css/main.88b5d9bf.css.map",
+    "main.0186db4d.js.map": "/Takalkar_Classes/static/js/main.0186db4d.js.map",
+    "488.b5fb6f0b.chunk.js.map": "/Takalkar_Classes/static/js/488.b5fb6f0b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88b5d9bf.css",
+    "static/js/main.0186db4d.js"
+  ]
+}

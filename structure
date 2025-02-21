@@ -1,0 +1,49 @@
+Home
+	Menu
+	slider
+	About Us
+	course
+	Blog
+	Branch
+	footer
+About 
+	Menu
+	About US
+	Founder
+	why choose
+	Footer 
+Courses
+	Card Courses->view & enquiry(admission)
+Admission
+	menu
+	form
+	Footer
+Admission
+	menu
+	photo
+	footer
+Contact
+	map
+	form
+	details(address,mobile,email)
+Terms & Cond
+Privacy Policy
+FAQ
+
+
+Src
+	Website
+		Home(Fol)
+			slider.jsx
+			about.jsx
+			course.jsx
+			Blog.jsx
+		About(fol)
+			banner.jsx
+			aboutus.jsx
+			aboutfounder.jsx
+	menu.jsx
+	footer.jsx
+	Home.jsx
+	About.jsx
+	App.jsx
