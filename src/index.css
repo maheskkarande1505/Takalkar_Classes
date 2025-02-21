@@ -1,0 +1,350 @@
+*{
+  font-family: sans-serif;
+  line-height: 28px;
+
+}
+.nav-flex{
+  display: flex;
+}
+.nav_1{
+  background-color: rgb(41, 31, 85);
+}
+.nav_email_phone{
+  text-decoration: white;
+  color: rgb(213, 208, 208);
+  font-size: 14px; 
+
+}
+.nav_1_icon{
+  text-decoration: white;
+  color: rgb(213, 208, 208); 
+  float: right;
+  font-size: 20px; 
+
+  margin-right: 15px;
+}
+.nav_btn_decoreaton{
+ text-decoration: none;
+ color: rgb(67, 67, 67);
+ text-align: center;
+ font-size: 14px; 
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+.nav_btn_decoreaton:hover{
+  color: black;
+  font-weight: bold;
+
+}
+.nav_btn_group{
+      display: flex;
+      margin-left: 110px;
+      width: 40%;
+      gap: 15px;
+      
+}
+
+.nav_btn{
+  flex: 1;
+}
+.sidemenue{
+  display: none;
+}
+
+
+@media (max-width:800px) {
+  .nav_btn_group{
+    display: none;
+    
+}
+.nav_1{
+  display: none;
+}
+.nav_1_icon{
+  font-size: 18px;
+  margin: 0px;
+  margin-left: 5px;
+}
+.sidemenue{
+  margin: 0px;
+  width:"";
+  font-size: 10px;
+}
+.sidemenue_open{
+  width: 50%;
+
+}
+.sidemenue{
+  display:block;
+}
+.enq_button{
+  display: none;
+}
+}
+
+
+
+/* slider section */
+
+/* About Secction */
+
+.about_takalkar{
+  font-weight: 900;
+  font-size: 50px;
+  margin-top: 150px;
+  font-family: Hind,sans-serif;
+}
+.about_text{
+  font-family: Hind,sans-serif;
+  font-size: 14px;
+  color: gray;
+}
+.about_image img{
+  width: 80%;
+  margin-top: 100px;
+  margin-left: 10%;
+  overflow: hidden;
+}
+.about_icons{
+  float: left;
+  width: 30%;
+  height: 60px;
+  font-size: 12px;
+  
+}
+.about_icons i{
+  font-size: 25px;
+ 
+  margin-right: 10px;
+}
+
+/* flexible cousese */
+
+.flexible_courses{
+  background-image: url("../public/Flexible-Courses-BG.jpg");
+  height: 260px;
+  width: 100%;
+  padding: 10px;
+  background-size: cover;
+  text-align: center;
+  color: rgb(248, 248, 248);
+
+}
+.heding{
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 20px;
+ 
+}
+
+.div_1{
+  height: 340px;
+  width: 240px;
+  margin-top: -60px;
+  margin-bottom: 50px;
+  box-shadow: 1px 1px 10px 1px;
+  border-radius: 10px;
+}
+.div_2{
+  height: 340px;
+  width: 240px;
+  margin-bottom: 50px;
+  margin-top: -60px;
+  box-shadow: 1px 1px 10px 1px;
+  border-radius: 10px;
+}
+
+.div_3{
+  height: 340px;
+  width: 240px;
+  margin-bottom: 50px;
+  margin-top: -60px;
+  box-shadow: 1px 1px 10px 1px;
+  border-radius: 10px;
+}
+.std_course1{
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+.div_1 img,.div_2 img,.div_3 img{
+  width: 240px;
+
+}
+@media (max-width: 950px) {
+
+  .div_1{
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 20px;
+  }
+  .div_2{
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 20px;
+
+  }
+  .div_3{
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 20px;
+  }
+}
+
+/* founder section */
+
+.founder_img{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 50px;
+}
+.about_founder p h1{
+    font-weight: 700;
+    margin-top: 50px;
+}
+.about_founder p{
+  color: rgb(78, 78, 78);
+}
+
+/* Blog section */
+
+.blog{
+  height: 400px;
+  width: 100%;
+ 
+  background-image: url("../public/Latest-Article.jpg");
+  
+  background-size: cover;
+  overflow-y: scroll;
+}
+.blog img{
+  width: 100%;
+  overflow-y: scroll;
+}
+
+/* branch section */
+
+.branch_section h1{
+ font-size: 30px;
+ text-align: center;
+ font-weight: 800;
+ margin-top: 60px;
+}
+.branch_section h2{
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+}
+.branch_center{
+  width: 100%;
+  justify-items: center;
+  text-align: center;
+  display: flex;
+  /* overflow: hidden; */
+}
+.branch_name{
+  height: 300px;
+  /* background: gold; */
+  display: inline-block;
+  margin-bottom: 15px;
+  
+}
+.branch_name1{
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  margin: 1%;
+  background-color: rgb(244, 244, 244);
+}
+.branch_name1:hover{
+  
+  background-color: rgb(88, 87, 89);
+  color: white;
+  transition: color 0.6s ease-in-out;
+  background-color: linear-gradient(top to bottom,rgb(115, 115, 115));
+}
+
+
+/* About section */
+
+.about_back{
+  overflow: hidden;
+  height: 300px;
+  width: 100%;
+
+}
+.about_back img{ 
+  filter: brightness(35%);
+  width: 100%;
+  height: 300px;
+}
+.about_back h1{
+  color: white;
+  font-weight: 900;
+  position: absolute;
+  top: 150px;
+}
+.about_back p{
+  color: white;
+  font-weight: 900;
+  position: absolute;
+  top: 250px;
+}
+
+@media (max-width:500px){
+  .about_back img{ 
+    filter: brightness(35%);
+    width: auto;
+    height: 200px;
+  }
+  .about_back h1{
+    color: white;
+    font-weight: 900;
+    position: absolute;
+    top: 10%;
+  }
+  .about_back p{
+    color: white;
+    font-weight: 900;
+    position: absolute;
+    top: 25%;
+  }
+}
+
+
+/* Contact Page */
+
+.contact_Address_box{
+  width: 70%;
+  height: auto;
+  margin-left: 15%;
+  margin-top: 50px;
+  box-shadow: 1px 1px 10px 1px;
+  padding: 40px;
+}
+
+.contact_Address_box i{
+  font-size: larger;
+ color: green;
+
+}
+.contact_Address_box .fa-solid{
+  margin-left: -20px;
+}
+.contact_Address_box .fa-brands{
+  margin-left: 12%;
+}
+
+/* gallery page */
+
+.gallery{
+  height: 300px;
+  border: 5px solid rgb(255, 255, 255);
+
+}
+.gallery img{
+  height: 100%;
+  width: 100%;
+  /* padding: 5px; */
+}
