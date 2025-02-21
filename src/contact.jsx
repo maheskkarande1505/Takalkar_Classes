@@ -5,11 +5,12 @@ export default function Contact() {
     <>
       
       <div className="about_back w-100 h-300 bg-cover bg-center flex items-center justify-center"style={{ height: "300px",}}>
-          <img src="../../About-Us-1.jpg" alt="" />
+          
+          <img src={`${process.env.PUBLIC_URL}/About-Us-1.jpg`} className="w-100 h-100" alt="..."/>
           <div className=" row text-center">
           
           <h1 className="text-center pt-5" >Contact</h1>
-          <p className="text-lg mt-2">Home » Contact</p>
+          <p className="text-lg mt-2"><a className="text-decoration-none text-white" href="/home">Home</a> » Contact</p>
           </div>
     </div>
 
