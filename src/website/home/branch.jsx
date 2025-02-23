@@ -1,17 +1,21 @@
 
+import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 export default function Branch() {
 
    const [branches, setBranches] = useState([]);
+  
 
    useEffect(() => {
-      fetch("https://deepipl.com/php_react/API/homebranch")//https://react-admin-44yh.onrender.com/admin/center_api
-        .then((response) => response.json())
-        .then((data) => {
-         // console.log("Fetched Data:", data); // Debugging
-          setBranches(data);
+      axios
+        .get("https://deepipl.com/php_react/API/homebranch")  //https://react-admin-44yh.onrender.com/admin/center_api
+        .then((response) => {
+          //console.log("Fetched Data:", response.data); // Debugging
+          setBranches(response.data);
         })
-        .catch((error) => console.error("Error fetching data:", error));
+        .catch((error) => {
+          console.error("Error fetching data:", error);
+        });
     }, []);
 
   return (
