@@ -84,7 +84,7 @@ function Footer(){
     <div className="text-center text-secondary">
       <p>
         &copy; 2024. All rights reserved. Designed & Developed by
-        Vishal Salunke
+         💖 Mahesh Karande
       </p>
     </div>
   </div>
