@@ -18,11 +18,13 @@ export default function Branch() {
         });
     }, []);
 
+
   return (
     <>
     
   
       <div className="container branch_section">
+        <h1>13 CENTRES IN PUNE & PCMC</h1>
         <h1>13 CENTRES IN PUNE & PCMC</h1>
         <h2>Takalkar Classes Is Now Closer To You !</h2>
 
